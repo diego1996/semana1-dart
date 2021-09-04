@@ -1,0 +1,2 @@
+// ejercicio 1 -> Crear una lista dinamica de 6 elementos en la cual se recolectaran edades de personas.part '
+// Como resultado el programa mostrará la edad mayor, menor y el promedio de edades ingresadas.';
