@@ -9,4 +9,6 @@ b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 escriba un programa que devuelva una lista que contenga solo los elementos que son comunes entre ellos (sin duplicados). 
 Asegurese de que su programa funcione en dos listas de diferentes tamaños.
 
+ejercicio 3 -> validar si una cadena es palindromo o no
+
 */
