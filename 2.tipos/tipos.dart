@@ -35,4 +35,23 @@ void main(List<String> args) {
 
   var text7 = "me uno con " ', este otro valor'; // concatenacion
   print(text7);
+
+  var text10 = '''CREATE TABLE Person (
+                    PersonID int,
+                  );''';
+
+  print(text10);
+
+  var text11 = r'mostrar este caracter \';
+  print(text11);
+
+  var text12 = '';
+  if (text12.isEmpty) {
+    print('es vacio');
+  }
+
+  var boolVariable = null;
+  if (boolVariable == null) {
+    print("es null");
+  }
 }
