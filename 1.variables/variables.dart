@@ -1,15 +1,14 @@
 void main(List<String> args) {
-  var firstName = "Diego";
-  String lastName = "Alejandro";
+  var firstName = "Diego"; // tipo de variable implicita
+  String lastName = "Alejandro"; // tipo de variable explicita (type)
 
   var age = 24;
   int age2 = 24;
 
-  var test;
+  var test; // variable dynamic
+  print(test); // null
 
-  print(test);
-
-  test = "test";
+  test = "test"; // dymanic
   print(test);
 
   test = 0.5;
@@ -21,5 +20,16 @@ void main(List<String> args) {
   print(age);
   print(age2);
 
-  print("${firstName.toUpperCase()} ${lastName.toUpperCase()}");
+  print("${firstName.toUpperCase()} ${lastName.toUpperCase()}"); // format strs
+
+  int? nullVariable = null; // null safety
+  String? nullVariable2 = null; // null safety
+  print(nullVariable);
+  print(nullVariable2);
+
+  final String finalVariable = "Hola"; // final variables
+  const String constVariable = "Hola"; // const variables
+
+  print(finalVariable);
+  print(constVariable);
 }
