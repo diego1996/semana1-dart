@@ -54,4 +54,51 @@ void main(List<String> args) {
   if (boolVariable == null) {
     print("es null");
   }
+
+  var list1 = ['mazda', 'kia', 'renault'];
+  List<String> list2 = ['mazda', 'kia', 'renault'];
+  print(list1);
+  print(list2);
+  print(list2.first);
+  print(list2.last);
+  print(list2.reversed);
+
+  var list3 = ['chevrolet', ...list1];
+  print(list3);
+  list3.add("bwm");
+  print(list3);
+  var list4 = list1;
+  var list5 = [list3, list4];
+  var list6 = [...list3, ...list4];
+  print(list5);
+  print(list6);
+
+  var list7;
+  List<String>? list8 = null;
+  var list9 = [...list3, ...?list7, ...?list8];
+  print(list9);
+
+  var listSet = {'mazda', 'kia', 'renault', 'kia'};
+  listSet.add('mazda');
+  print(listSet);
+
+  var list10 = ["string", true, 1];
+  print(list10);
+
+  List<dynamic> list11 = ["string", true, 1];
+  print(list11);
+
+  var map1 = {'key1': 'value1', 'key2': false};
+  print(map1);
+  map1.clear();
+  print(map1);
+  map1['newkey'] = 'new_value';
+  map1['newkey2'] = 'new_value2';
+  print(map1);
+
+  map1.forEach((key, value) => print(key));
+  map1.forEach((key, value) {
+    print(key);
+    print(value);
+  });
 }
