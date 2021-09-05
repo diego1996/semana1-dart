@@ -11,9 +11,14 @@ Asegurese de que su programa funcione en dos listas de diferentes tamaños.
 
 ejercicio 3 -> validar si una cadena es palindromo o no
 
-ejercicio4 -> Por ejemplo tiene una lista guardada en una variable:
+ejercicio 4 -> Por ejemplo tiene una lista guardada en una variable:
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100].
 Escriba un código de Dart que tome esta lista y cree una nueva lista que contenga
 solo los elementos pares de esta lista.
+
+ejercicio 5 -> Realizar un programa que implemente herencia y mixin del siguiente
+diagrama. Los resultados por consola deben evidenciar el uso de extend y
+mixin.
+Cada clase debe tener mínimo un método y tres atributos.
 
 */
